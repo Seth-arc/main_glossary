@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 1: Data Foundations - Glossary</title>
+    <link rel="stylesheet" href="styles/glossary.css">
+</head>
+<body>
+    <div class="glossary-container">
+        <div class="module-header">
+            <img src="img/gloss_1.svg" alt="Module 1: Data Foundations" class="module-image">
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-bar"></div>
+        </div>
+
+        <main>
+            <div class="term-card">
+                <!-- Term content will be populated by JavaScript -->
+            </div>
+
+            <div class="nav-controls">
+                <a href="index.html" class="nav-btn home">Home</a>
+                <button class="nav-btn prev" disabled>Previous</button>
+                <button class="nav-btn next">Next</button>
+            </div>
+        </main>
+
+
+
+        <footer class="glossary-footer">
+        </footer>
+    </div>
+
+    <script src="js/glossary.js"></script>
+    <script src="js/navigation.js"></script>
+    <script>
+        // Module 1 glossary data
+        window.glossaryData = {
+            "module": "Module 1: Data Foundations",
+            "description": "Key terms and concepts related to foreign aid data foundations, data types, structures, and sourcing",
+            "glossary": {
+                "Cross-Sectional Data": {
+                    "definition": "Data collected at a single point in time across multiple subjects or entities",
+                    "example": "Development finance amounts received by different countries in 2023",
+                    "category": "Data Types"
+                },
+                "Data Sourcing": {
+                    "definition": "The process of finding, collecting, and obtaining data from various sources for analysis",
+                    "example": "Gathering development finance data from World Bank databases and government reports",
+                    "category": "Data Collection"
+                },
+                "Development Finance Data": {
+                    "definition": "Information and statistics related to financial flows intended to promote economic development and welfare in developing countries",
+                    "example": "Aid disbursement amounts, loan terms, grant allocations",
+                    "category": "Core Concepts"
+                },
+                "Foreign Aid Data": {
+                    "definition": "Structured information about international assistance provided by donor countries or organizations to recipient countries",
+                    "example": "Bilateral aid flows, multilateral funding, humanitarian assistance data",
+                    "category": "Core Concepts"
+                },
+                "Geospatial Data": {
+                    "definition": "Data that includes location information, such as coordinates, addresses, or geographic boundaries",
+                    "example": "Mapping aid project locations and their geographic distribution",
+                    "category": "Data Types"
+                },
+                "Hierarchical Data": {
+                    "definition": "Data organized into multiple levels or layers, representing nested relationships",
+                    "example": "Aid flows organized by region → country → project → sector",
+                    "category": "Data Structures"
+                },
+                "Network Data": {
+                    "definition": "Data that captures relationships between entities, represented as nodes and edges in a graph",
+                    "example": "Donor-recipient relationships and aid flow networks",
+                    "category": "Data Structures"
+                },
+                "Panel Data": {
+                    "definition": "Data that combines cross-sectional and time-series elements, tracking the same subjects over multiple time periods",
+                    "example": "Annual aid received by the same countries over a 10-year period",
+                    "category": "Data Types"
+                },
+                "Qualitative Data": {
+                    "definition": "Descriptive, non-numeric data that captures attributes, characteristics, and narrative information",
+                    "example": "Interview transcripts, case studies, narrative reports about aid effectiveness",
+                    "category": "Data Types"
+                },
+                "Quantitative Data": {
+                    "definition": "Numerical data that can be measured and expressed numerically for statistical analysis",
+                    "example": "Aid amounts in USD, population figures, literacy rates, GDP indicators",
+                    "category": "Data Types"
+                },
+                "Reliable Data Sources": {
+                    "definition": "Trustworthy sources that provide accurate, consistent, and credible information for analysis",
+                    "example": "OECD-DAC database, World Bank Open Data, official government aid reports",
+                    "category": "Data Quality"
+                },
+                "Time-Series Data": {
+                    "definition": "Data points collected at successive points in time to show trends and changes over time",
+                    "example": "Annual development finance disbursements from 2000 to 2023",
+                    "category": "Data Types"
+                },
+                "Wide Format": {
+                    "definition": "Data structure where each variable forms a column and observations are in rows, often used for cross-sectional data",
+                    "example": "Countries as rows with separate columns for aid received in different years",
+                    "category": "Data Structures"
+                },
+                "Data Evaluation": {
+                    "definition": "The process of assessing data quality, identifying potential biases, and determining data suitability for analysis",
+                    "example": "Checking aid data for completeness, consistency, and reliability across different sources",
+                    "category": "Data Quality"
+                },
+                "Mean": {
+                    "definition": "The average value calculated by summing all values in a dataset and dividing by the number of values",
+                    "example": "Calculating the average aid amount received per capita across different countries to understand typical assistance levels",
+                    "category": "Basic Statistical Measures"
+                },
+                "Median": {
+                    "definition": "The middle value in a dataset when values are arranged in ascending or descending order",
+                    "example": "Finding the median income level in aid recipient countries to understand the typical economic condition without being skewed by outliers",
+                    "category": "Basic Statistical Measures"
+                },
+                "Mode": {
+                    "definition": "The value that appears most frequently in a dataset",
+                    "example": "Identifying the most common type of development project funded (e.g., health, education, infrastructure) in a particular region",
+                    "category": "Basic Statistical Measures"
+                },
+                "Range": {
+                    "definition": "A measure of spread calculated as the difference between the maximum and minimum values in a dataset",
+                    "example": "Calculating the range of aid amounts received by different regions to understand the variability in resource distribution",
+                    "category": "Basic Statistical Measures"
+                },
+                "Percentile": {
+                    "definition": "A value below which a certain percentage of data points fall, used to understand relative positioning within a dataset",
+                    "example": "Determining that a country is in the 75th percentile of aid recipients, meaning it receives more aid than 75% of other countries",
+                    "category": "Basic Statistical Measures"
+                },
+                "Central Limit Theorem": {
+                    "definition": "A statistical principle stating that the sampling distribution of sample means approaches normal distribution as sample size increases, regardless of population distribution",
+                    "example": "Using multiple samples of household incomes to estimate the average income in a region with confidence intervals for aid allocation planning",
+                    "category": "Advanced Statistical Concepts"
+                },
+                "Skewness": {
+                    "definition": "A measure of asymmetry in data distribution, indicating whether data points are concentrated on one side of the mean",
+                    "example": "Analyzing income distribution in developing countries where most incomes are low but a few are extremely high (positive skew)",
+                    "category": "Advanced Statistical Concepts"
+                },
+                "Variance": {
+                    "definition": "A measure of how spread out data points are from the mean, calculated as the average of squared deviations",
+                    "example": "Measuring variance in GDP growth rates across aid recipient countries to assess economic stability and predictability",
+                    "category": "Advanced Statistical Concepts"
+                },
+                "Standard Deviation": {
+                    "definition": "The square root of variance, providing a measure of data spread in the same units as the original data",
+                    "example": "Calculating standard deviation of aid disbursement amounts to understand typical variation from the average funding level",
+                    "category": "Advanced Statistical Concepts"
+                },
+                "Correlation": {
+                    "definition": "A statistical measure that describes the strength and direction of a linear relationship between two variables",
+                    "example": "Examining correlation between aid amounts and poverty reduction rates to understand potential relationships without implying causation",
+                    "category": "Advanced Statistical Concepts"
+                },
+                "Causation": {
+                    "definition": "A relationship where one variable directly influences or causes changes in another variable",
+                    "example": "Establishing through rigorous analysis that increased education funding directly causes improved literacy rates in recipient communities",
+                    "category": "Advanced Statistical Concepts"
+                },
+                "Long Format": {
+                    "definition": "Data structure where each row represents a single observation and each column represents a variable, also known as 'tidy' format",
+                    "example": "Aid data with separate rows for each country-year combination, with columns for country, year, aid amount, and aid type",
+                    "category": "Data Structures"
+                }
+            }
+        };
+    </script>
+</body>
+</html>

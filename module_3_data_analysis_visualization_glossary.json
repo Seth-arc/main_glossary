@@ -1,0 +1,116 @@
+{
+  "module": "Module 3: Critical Data Analysis & Visualization",
+  "description": "Key terms and concepts related to statistical analysis, data visualization principles, design foundations, and analytical tools",
+  "glossary": {
+    "Advanced Statistical Concepts": {
+      "definition": "Sophisticated statistical methods and measures used for complex data analysis and interpretation",
+      "example": "Regression analysis, hypothesis testing, confidence intervals in aid effectiveness studies",
+      "category": "Statistical Methods"
+    },
+    "Analytics Platforms": {
+      "definition": "Software tools used for advanced data visualization and analysis, enabling interactive charts and dashboards",
+      "example": "Tableau, Power BI for creating interactive aid flow visualizations",
+      "category": "Tools & Software"
+    },
+    "Basic Statistical Measures": {
+      "definition": "Fundamental statistical concepts including measures of central tendency and distribution",
+      "example": "Mean aid disbursement amounts, median recipient country income levels, standard deviation of aid allocations",
+      "category": "Statistical Methods"
+    },
+    "Color Accessibility": {
+      "definition": "Design practices that ensure visualizations are readable by people with color vision deficiencies",
+      "example": "Using patterns and textures in addition to color to differentiate aid categories",
+      "category": "Design Principles"
+    },
+    "Color Vision Deficiencies": {
+      "definition": "Conditions affecting approximately 8% of men and 1% of women that impact ability to distinguish certain colors",
+      "example": "Red-green colorblindness affecting interpretation of aid vs. trade flow visualizations",
+      "category": "Accessibility"
+    },
+    "Concentration": {
+      "definition": "A design principle that focuses visual elements in specific areas to direct viewer attention to important data",
+      "example": "Highlighting the largest aid recipients in a world map visualization",
+      "category": "Design Principles"
+    },
+    "Contrast": {
+      "definition": "Visual differences between elements that make important data points stand out and improve readability",
+      "example": "Using high contrast colors to distinguish between different types of development finance",
+      "category": "Design Principles"
+    },
+    "Data Quality Assessment": {
+      "definition": "The process of evaluating and categorizing data to ensure it meets standards for effective analysis",
+      "example": "Checking aid data for completeness, accuracy, and consistency across sources",
+      "category": "Data Analysis"
+    },
+    "Data Visualization": {
+      "definition": "The graphical representation of data that transforms complex information into accessible and engaging visual formats",
+      "example": "Charts, graphs, and interactive maps showing development finance flows and trends",
+      "category": "Core Concepts"
+    },
+    "Design Foundations": {
+      "definition": "Basic principles that guide effective visual communication in data visualization",
+      "example": "Proper use of color, typography, and layout in aid effectiveness dashboards",
+      "category": "Design Principles"
+    },
+    "Editorial Judgment": {
+      "definition": "The ability to make decisions about what visualizations effectively communicate and support analytical conclusions",
+      "example": "Choosing bar charts vs. pie charts to represent aid distribution by sector",
+      "category": "Professional Skills"
+    },
+    "Interactive Visualizations": {
+      "definition": "Data visualizations that allow users to engage with and manipulate the display to explore different aspects of the data",
+      "example": "Interactive maps where users can filter aid data by year, donor, or recipient country",
+      "category": "Visualization Types"
+    },
+    "Pattern Recognition": {
+      "definition": "The ability to identify trends, relationships, and anomalies in visual data representations",
+      "example": "Spotting seasonal patterns in humanitarian aid disbursements through time-series visualizations",
+      "category": "Analytical Skills"
+    },
+    "Percentile Analysis": {
+      "definition": "Statistical method that shows how a value compares to the rest of a dataset in terms of ranking",
+      "example": "Determining that a country is in the 75th percentile of aid recipients globally",
+      "category": "Statistical Methods"
+    },
+    "Statistical Analysis Software": {
+      "definition": "Tools that allow journalists and analysts to perform sophisticated statistical analyses and modeling",
+      "example": "R, Python, SPSS for analyzing aid effectiveness and development outcomes",
+      "category": "Tools & Software"
+    },
+    "Visual Analysis": {
+      "definition": "The process of examining data through visual representations to identify patterns and relationships",
+      "example": "Using scatter plots to examine relationships between aid amounts and development indicators",
+      "category": "Analytical Skills"
+    },
+    "Visualization Principles": {
+      "definition": "Fundamental guidelines for creating effective, accurate, and accessible data visualizations",
+      "example": "Choosing appropriate chart types, maintaining consistent scales, providing clear legends",
+      "category": "Design Principles"
+    },
+    "Chart Types": {
+      "definition": "Different formats for displaying data visually, each suited to specific types of information and analytical questions",
+      "example": "Bar charts for comparing aid amounts, line charts for trends over time, scatter plots for relationships",
+      "category": "Visualization Types"
+    },
+    "Data Interpretation": {
+      "definition": "The process of analyzing and explaining what data visualizations reveal about underlying patterns and relationships",
+      "example": "Interpreting correlation between aid amounts and development outcomes while avoiding causation assumptions",
+      "category": "Analytical Skills"
+    },
+    "Visual Hierarchy": {
+      "definition": "The arrangement of visual elements to guide the viewer's attention through the most important information first",
+      "example": "Making the largest aid flows most prominent in a network visualization of donor-recipient relationships",
+      "category": "Design Principles"
+    },
+    "Scalability": {
+      "definition": "The ability of visualizations to effectively represent data across different ranges and levels of detail",
+      "example": "Creating aid flow maps that work at both global and regional zoom levels",
+      "category": "Technical Concepts"
+    },
+    "Data Accuracy": {
+      "definition": "The degree to which data and its visual representation correctly reflect the real-world phenomena being measured",
+      "example": "Ensuring aid disbursement figures match official records and are presented without distortion",
+      "category": "Data Quality"
+    }
+  }
+}
